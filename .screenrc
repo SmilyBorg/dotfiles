@@ -1,0 +1,6 @@
+shell -${SHELL}
+altscreen on
+hardstatus alwayslastline
+caption always "%{wb}%n%f %t %{wk} %?%-Lw%?%{wb}[%n*%f %t]%?(%u)%?%{wk}%?%+Lw%? %{wk}"
+hardstatus alwayslastline "%{+b kr}host: %{kw}%H%{kg} %c - %D %d.%m.%Y %{kr}(load: %l) %-26=%1`"
+defscrollback 5000
